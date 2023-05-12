@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Comment from "./Comment";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { AiOutlineRetweet, AiOutlineLike } from "react-icons/ai";
+import { AiOutlineRetweet, AiOutlineHeart } from "react-icons/ai";
 import { BsThreeDots } from "react-icons/bs";
 import { GoComment } from "react-icons/go";
 import { RiDeleteBin6Fill } from "react-icons/ri";
@@ -330,7 +330,7 @@ function Tweet(props) {
                   method="post"
                 >
                   <button>
-                    <AiOutlineLike />
+                    <AiOutlineHeart />
                     <div className="like-count">{likeCount}</div>
                   </button>
                 </form>

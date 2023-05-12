@@ -95,11 +95,7 @@ function Feed() {
       tweetId: moment(),
     };
 
-    // let form = document.getElementById("form");
-    // let formData = new FormData(form);
-
-    // formData.append("main", JSON.stringify(tweet));
-    // console.log(formData);
+    
     const data = { tweet: JSON.stringify(tweet), image: img };
     const action = e.target.action;
 

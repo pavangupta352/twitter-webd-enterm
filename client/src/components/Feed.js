@@ -150,12 +150,7 @@ function Feed() {
             onChange={handleChange}
             
           ></input>
-          <div className="tweet-flex">
-          
-
-            
-
-          <button
+            <button
             className={checkInput ? "tweetBtn" : "disabled"}
             disabled={!checkInput}
             type="submit"
@@ -163,7 +158,7 @@ function Feed() {
             {" "}
             Tweet
           </button>
-        </div>
+       
           
           <img className="tweet-preview" src={img} alt="" />
         </form>

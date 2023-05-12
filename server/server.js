@@ -17,7 +17,7 @@ app.use(express.json());
 app.use("/images", express.static("images"));
 app.use("/tweetImages", express.static("tweetImages"));
 
-mongoose.connect('mongodb+srv://sentry:GRd8aNeZki4hhVOV@cluster0.la2i7lg.mongodb.net/?retryWrites=true&w=majority', (err) => {
+mongoose.connect('mongodb+srv://sentry:AnkcVVN7euA4rORC@cluster0.la2i7lg.mongodb.net/?retryWrites=true&w=majority', (err) => {
   if (err) console.log(err);
   else console.log("mongdb is connected");
 });
